@@ -1,0 +1,7 @@
+# Normalise line endings so Windows / Linux do not keep reporting whole-file diffs
+* text=auto eol=lf
+
+# Binary files must not be converted
+*.png binary
+*.ico binary
+*.exe binary

@@ -1,0 +1,34 @@
+# ---- Files the program writes at runtime ----
+# ai4Gauss_en_config.json contains your API key in plain text. Never commit it.
+ai4Gauss_en_config.json
+*_config.json
+!config.example*.json
+
+# ---- Run records ----
+keywords.txt
+*.log
+
+# ---- Output folders created by the generator (e.g. 20260920Gauss/) ----
+20*Gauss/
+
+# ---- Executables ----
+# A bundled exe can hide an API key; distribute builds through GitHub Releases
+# instead of committing them here.
+*.exe
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+*.spec
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
